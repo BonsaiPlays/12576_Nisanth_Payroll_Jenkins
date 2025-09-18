@@ -35,7 +35,7 @@ namespace SeleniumTestApp
                         .SendKeys("burnerghost306@gmail.com");
                     driver
                         .FindElement(By.CssSelector("[data-testid='password-input']"))
-                        .SendKeys("2770b2090a!a");
+                        .SendKeys("2490b39210!a");
                     driver.FindElement(By.CssSelector("[data-testid='login-button']")).Click();
 
                     // Verify login success
@@ -72,7 +72,7 @@ namespace SeleniumTestApp
 
                     // Select employee checkbox
                     driver
-                        .FindElement(By.CssSelector("[data-testid='employee-checkbox-151']"))
+                        .FindElement(By.CssSelector("[data-testid='employee-checkbox-152']"))
                         .Click();
 
                     // Confirm selection

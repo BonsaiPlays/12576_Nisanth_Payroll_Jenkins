@@ -79,7 +79,7 @@ using (var scope = app.Services.CreateScope())
 {
     var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
     db.Database.Migrate(); 
-    SeedTestData.Seed(db); 
+    // SeedTestData.Seed(db); 
 }
 
 if (app.Environment.IsDevelopment())

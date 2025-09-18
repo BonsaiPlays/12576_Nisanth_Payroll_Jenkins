@@ -37,7 +37,7 @@ namespace SeleniumTestApp
                         .SendKeys("burnerghost306@gmail.com");
                     driver
                         .FindElement(By.CssSelector("[data-testid='password-input']"))
-                        .SendKeys("2770b2090a!a");
+                        .SendKeys("2490b39210!a");
                     driver.FindElement(By.CssSelector("[data-testid='login-button']")).Click();
 
                     // Verify login success
