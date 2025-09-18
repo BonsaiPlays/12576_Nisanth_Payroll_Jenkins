@@ -1,0 +1,6 @@
+[submodule "Back-end"]
+	path = Back-end
+	url = https://github.com/BonsaiPlays/12576_Nisanth_Payroll_Backend.git
+[submodule "Front-end"]
+	path = Front-end
+	url = https://github.com/BonsaiPlays/12576_Nisanth_Payroll_Frontend.git

@@ -1,0 +1,49 @@
+version: "3.9"
+services:
+ 
+  aspnet-app:
+    build:
+      context: ./Back-end/PayrollApi
+      dockerfile: Dockerfile
+    container_name: aspnet-container
+    ports:
+      - "5111:5111"  # Host:Container port mapping
+    depends_on:
+      - mysql-db
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:5111
+      - ConnectionStrings__DefaultConnection=Server=mysql-db;Database=PayrollDb;User=root;Password=123456;Port=3306
+    networks:
+    - testnetwork
+    restart: on-failure
+  
+  frontend:
+    build:
+      context: ./Front-end/payroll-frontend
+    container_name: react_frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - aspnet-app
+ 
+  mysql-db:
+    image: mysql:8.0
+    container_name: mysql-container
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: 123456
+      MYSQL_DATABASE: productdb
+    ports:
+      - "3307:3306"
+    volumes:
+      - mysqlvolume:/var/lib/mysql     
+    networks:
+        - testnetwork
+
+networks:
+  testnetwork:
+ 
+volumes:
+  mysqlvolume:
+  
