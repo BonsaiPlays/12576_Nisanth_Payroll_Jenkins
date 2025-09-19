@@ -94,12 +94,12 @@ function Login() {
         <Card elevation={4}>
           <CardContent>
             <Typography
-              variant="h5"
+              variant="h4"
               align="center"
               gutterBottom
               data-testid="login-title"
             >
-              Login
+              Payroll Dashboard Login
             </Typography>
 
             <Box

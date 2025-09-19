@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PaySlipCreateAndReleaseTest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d6d57a667c2bd8908d928b688bbcfbda0b68bffa")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+69a8d9ff9cbfc58ab9b3c51a813e553281c03477")]
 [assembly: System.Reflection.AssemblyProductAttribute("PaySlipCreateAndReleaseTest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PaySlipCreateAndReleaseTest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
