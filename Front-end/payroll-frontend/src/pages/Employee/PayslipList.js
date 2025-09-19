@@ -194,7 +194,9 @@ function PayslipList() {
                   <TableCell>
                     {p.isReleased ? (
                       <Chip label="Released" color="success" size="small" />
-                    ) : p.isApproved ? (
+                    ) : p.staus === 1 ? (
+                      <Chip label="Approved" color="warning" size="small" />
+                    ) : p.staus === 2 ? (
                       <Chip label="Approved" color="warning" size="small" />
                     ) : (
                       <Chip label="Pending" color="default" size="small" />

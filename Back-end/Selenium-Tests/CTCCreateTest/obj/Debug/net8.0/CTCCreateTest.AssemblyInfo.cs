@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CTCCreateTest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+69a8d9ff9cbfc58ab9b3c51a813e553281c03477")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4a162cc74a4fd2b41e49e66ef3a27a64aded4726")]
 [assembly: System.Reflection.AssemblyProductAttribute("CTCCreateTest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CTCCreateTest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
